@@ -88,6 +88,24 @@ git reset --hard <tag>
 
 ---
 
+### `v1.1-docs`
+**Commit:** `f1f2bd0`
+**Date:** 2026-06-20
+**Tag:** `v1.1-docs`
+
+**What it is:** Full MVP + all documentation. Clean working tree. Good restarting point.
+
+**Use this if:** You need to restart a session and want the last known-clean state with all docs in place.
+
+**What's here (on top of v1.0-mvp):**
+- ✅ README.md — setup guide, stack overview, roadmap
+- ✅ docs/SPEC.md — full product + feature specification
+- ✅ docs/ARCHITECTURE.md — system design, data flow, known limitations
+- ✅ docs/RESTORE_POINTS.md — this file
+- ✅ CLAUDE.md — updated with project context, critical rules, known issues to fix
+
+---
+
 ## Planned Future Restore Points
 
 These will be tagged as they are built:
